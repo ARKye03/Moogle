@@ -10,10 +10,10 @@ function SearchInput() {
         </h1>
       </div>
       <form>
-        <textarea
-          className="transition duration-200 bg-[#242731] hover:bg-slate-600 text-xl resize-none rounded-2xl pt-6 pl-5 lg:w-[800px] sm:w-[517px] w-96 outline-none"
-          placeholder="What do you want?"
-        ></textarea>
+        <input
+          className="h-20 transition duration-200 bg-[#242731] hover:bg-slate-600 text-xl rounded-2xl pl-5 lg:w-[800px] sm:w-[575px] w-96 outline-none"
+          placeholder="Search with moogle..."
+        ></input>
       </form>
     </div>
   );

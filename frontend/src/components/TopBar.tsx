@@ -1,10 +1,10 @@
 function TopBar() {
   return (
-    <div className="fixed top-0 left-0 h-16 w-full bg-[#222531] p-2">
+    <div className="fixed top-0 left-0 h-16 w-full bg-[#222531] p-3">
       <nav className="flex flex-row justify-end gap-6">
         <a href="/home">
           <svg
-            className="stroke-blue-800 hover:stroke-blue-600 transition duration-200"
+            className="stroke-[#969fb0] hover:stroke-blue-600 transition duration-200"
             width="42"
             height="42"
             viewBox="0 0 24 24"
@@ -22,7 +22,7 @@ function TopBar() {
         </a>
         <a href="https://github.com/ARKye03/Moogle_Search_Engine">
           <svg
-            className="stroke-blue-800 hover:stroke-blue-600 transition duration-200"
+            className="stroke-[#969fb0] hover:stroke-blue-600 transition duration-200"
             width="42"
             height="42"
             viewBox="0 0 24 24"
