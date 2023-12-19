@@ -39,7 +39,7 @@ function SearchResults() {
 
   return (
     <div className="flex flex-col">
-      <div className="absolute top-16 left-0">
+      <div className="absolute top-16">
         <SearchBox />
         <h1>Search Results for "{query}"...</h1>
       </div>

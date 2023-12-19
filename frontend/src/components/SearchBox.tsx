@@ -26,7 +26,7 @@ const SearchBox = () => {
             transition-all duration-200 
             bg-[#242731] hover:bg-slate-600 
             text-xl rounded-2xl pl-5 
-            lg:w-[800px] sm:w-[575px] w-96 
+            xl:w-[900px] sm:w-[500px] md:w-[700px] lg:w-[800px]
             outline-none pr-24" // added padding right to avoid overlap with svg
           placeholder="Search with moogle..."
           value={inputText}
