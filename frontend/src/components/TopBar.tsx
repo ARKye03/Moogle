@@ -1,8 +1,8 @@
 function TopBar() {
   return (
-    <div className="fixed top-0 left-0 h-16 w-full bg-[#222531] p-3">
+    <div className="fixed top-0 left-0 h-16 w-full bg-[#262832] p-3">
       <nav className="flex flex-row justify-end gap-6">
-        <a href="/home">
+        <a href="/">
           <svg
             className="stroke-[#969fb0] hover:stroke-blue-600 transition duration-200"
             width="42"
