@@ -6,6 +6,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --hover: #2563eb;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -58,4 +59,21 @@ html {
   opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+/* Modify the scrollbar width and color */
+::-webkit-scrollbar {
+  width: 10px; 
+  background-color: #262832;
+}
+.raise {
+  transition: all 0.2s ease-in-out;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition: all 0.2s ease-in-out;
+  cursor: default;
 }

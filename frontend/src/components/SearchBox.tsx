@@ -6,15 +6,20 @@ const SearchBox = () => {
   const navigate = useNavigate();
 
   const handleSearch = () => {
-    if (inputText === "") {
+    if (inputText.trim() === "") {
       return;
     } else {
-      navigate(`/search?query=${inputText}`);
+      navigate(`/search?query=${inputText.trim()}`);
     }
   };
 
   return (
-    <form onSubmit={(e) => e.preventDefault()}>
+    <form
+      onSubmit={(e) => {
+        e.preventDefault();
+        handleSearch();
+      }}
+    >
       <div className="relative">
         <input
           className="h-20 
