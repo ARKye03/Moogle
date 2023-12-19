@@ -28,10 +28,21 @@ Original work built with Blazor .NET 7
 Open a terminal and execute:
 
 ```shell
-git clone https://github.com/ARKye03/Moogle-Reimagined.git
+git clone https://github.com/ARKye03/Moogle.git
 ```
+
+```shell
+cd Moogle/frontend && npm start
+```
+
+## Requirements
+
+- DotNet 8 sdk
+- Git
+- Nodejs v20+
 
 ## Note
 
+- Currently supports only *.txt in ./src/content folder
 - WIP.
 - Current "Search Engine" will be changed.
