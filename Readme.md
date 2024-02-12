@@ -45,4 +45,4 @@ cd Moogle/frontend && npm start
 
 - Currently supports only *.txt in ./src/content folder
 - WIP.
-- Current "Search Engine" will be changed.
+- Current "Search Engine" was impproved in https://github.com/ARKye03/TauriRoogle
